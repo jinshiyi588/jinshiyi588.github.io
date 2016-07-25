@@ -1,0 +1,189 @@
+
+/*
+header
+*/
+.contact-info{
+	margin-left:80px;
+
+}
+
+.btn{
+
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.btn-dark{
+	color: white;
+	background: #555555;/* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #444444 , #666666); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #444444 , #666666); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #444444 , #666666); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #444444 , #666666); /* Standard syntax */
+}
+/*
+	Experience and Education
+*/
+.portlet{
+	border-radius: 5px;
+	border: 1px solid;
+	margin:0px 0px 20px 0px;
+
+}
+
+.portlet-title{
+	padding: 20px 20px 0px 20px;
+
+}
+
+.portlet-content{
+	border-top: 1px solid;
+	padding:10px 20px;
+}
+
+.portlet-content-item h4,.portlet-content-item p{
+	margin-bottom: 10px;
+}
+
+.item-title:before{
+	position: absolute;
+	width: 0px;
+    height: 0px;
+    border: 5px solid;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    left:25px;
+    margin-top:3px;
+    content:"";
+}
+
+/*
+Skill & Language
+*/
+.skill-title{
+
+	position:relative;/* deafult is static , it will be ingore in position: absolute 's find father*/
+}
+
+.skill-icon{
+	padding: 10px;
+	background: #12aee2;
+	border-radius: 5px;
+	margin-right:10px;
+	color: white;
+}
+
+.language-icon{
+	padding: 10px 12px;
+	background: #12aee2;
+	border-radius: 5px;
+	margin-right:10px;
+	color: white;
+
+}
+
+.skill-icon:after, .language-icon:after{
+	position: absolute;
+	width: 0px;
+    height: 0px;
+    border: 10px solid #12aee2;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    bottom:-20px;
+    left:23px;
+    margin-left: -10px;
+    
+    content:"";
+
+}
+
+.skill-content, .language-content {
+	border-radius: 5px;
+	border: 1px solid;
+
+}
+
+.skill-content ul  {
+	margin: 20px 40px 40px 40px;
+
+}
+
+.language-content ul{
+
+	margin:20px 40px;
+}
+
+.progress{
+	overflow: visible;
+	box-shadow: none;
+
+}
+
+.progress-bar{
+	text-align: right;
+	position: relative;
+}
+
+.skill-content ul li:nth-child(even) .progress-bar  {
+	
+	background: #4B6F78;
+}
+
+.skill-percentage{
+	color: white;
+	padding: 1px 5px;
+	background: red;
+	border-radius: 5px;
+	position: relative;
+	bottom: -23px;
+	
+}
+
+.skill-percentage:before{
+	position: absolute;
+	width: 0px;
+    height: 0px;
+    border: 5px solid red;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    top:-10px;
+    left:40%;
+    
+    content:"";
+
+}
+
+.language-title{
+
+	position: relative;
+	margin-top: 40px;
+}
+
+.language-content ul li{
+	padding: 5px 10px;
+	background: #65B042;
+	border-radius: 5px;
+	margin: 0px 0px 10px 0px;
+
+}
+
+.language-content ul li:nth-child(even){
+	background: #3387CC;
+
+}
+
+.language-profi{
+	font-size: 12px;
+	text-align: right;
+	float: right;
+	padding: 3px;
+	background: grey;
+	border-radius: 5px;
+	color: white;
+}
+
+
+

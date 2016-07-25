@@ -37,6 +37,17 @@ $on-laptop:        800px;
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
+/*
+mixin is a scss feature to use is for vendor prefixes.  Here is a example.
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+.box { @include border-radius(10px); }
+*/
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;

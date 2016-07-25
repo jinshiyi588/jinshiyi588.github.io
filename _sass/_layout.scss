@@ -8,7 +8,49 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
+
+    img{
+      border-radius: 50%;
+      height: 100px;
+      border: 5px solid;
+    }
 }
+
+.header{
+  min-height: 80px;
+  padding-top: 20px;
+  background: #1fc8db;/* For browsers that do not support gradients */
+  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);/* Standard syntax */
+  background: -webkit-linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); /* For Firefox 3.6 to 15 */
+  
+
+  img{
+    border-radius: 50%;
+    height: 100px;
+    border: 5px solid;
+  }
+}
+
+.center{
+  margin: auto;// align center
+  text-align: center;// for text
+  display: block;// for img
+}
+
+// about color
+//bg: #64C9EF
+//content #12aee2
+//button:#12AEE2
+//button-hover:#0e8ab3
+//border #06476c
+//font-color #333333
+//shadow bg #DBEAF3
+//green ##65B042
+//blue #3387CC
+//red bg #f9f2f4
+//red font #c7254e
 
 .site-title {
     font-size: 26px;
@@ -16,7 +58,9 @@
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
+    padding-left: 10px;
+
+    // float: left;
 
     &,
     &:visited {

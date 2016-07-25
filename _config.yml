@@ -6,16 +6,86 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+title: Astrid Jin
+description: > # this means to ignore newlines until "baseurl"
+  Hello everyone, My name is Astrid Jin. I am from China. I am learning to build 
+  my own site based on github pages and jekyll. I'd like to share my interets and 
+  I hope to make some friends who have the same interets with me!
+baseurl: ""  # localhost:4000 wrong  # the subpath of your site, e.g. /blog
+url: "http://AstridJin.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+
+# site setting
+favicon: /assets/img/avator.jpg
+
+# Author settings
+author:
+  name: Astrid Jin
+  title: Software Developer
+  address: SH, China
+  email: astridjin16@gmail.com
+  github: jinshiyi588
+  twitter: jinshiyi
+  linkedin: shiyi-jin-8190676b
+  #Experience
+  Experience:
+    - work1:
+      company: SAP
+      location: Shanghai, China
+      title: Intern
+      duration: (2013 - 2014)
+      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. 
+    - work2:
+      company: COMAC
+      location: Shanghai, China
+      title: Java Developer
+      started: 2014
+      duration: (2014 - Present)
+      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. 
+    - work3:
+      company: COMAC1
+      location: Shanghai, China
+      title: Java Developer
+      started: 2014
+      duration: (2014 - Present)
+      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. 
+  #Education
+  Education:
+    - education1:
+      school: Tongji University
+      location: Shanghai, China
+      degree: Bachelor
+      major: Software Engineering
+      duration: (2010 - 2014)
+      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.
+  #programming Language
+  programmingSkills:
+    - skill1:
+      name: HTML
+      percentage: 100%
+    - skill2:
+      name: Bootstrap
+      percentage: 90%
+    - skill3:
+      name: JavaScript
+      percentage: 70%
+    - skill4:
+      name: AngularJS
+      percentage: 70%
+    - skill5:
+      name: Java/Java EE
+      percentage: 90%
+  #language
+  Language:
+    - language1:
+      name: Chinese
+      proficiency: Native
+    - language2:
+      name: English
+      proficiency: Professional
+    - language3:
+      name: Japanese
+      proficiency: Limit
+
