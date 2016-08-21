@@ -1,0 +1,77 @@
+---
+layout: default
+---
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="col-md-8">
+      {% if site.author.Experience %}
+      <div class="portlet">
+        <h3 class="portlet-title">Experience</h3>
+        {% for work in site.author.Experience %}
+        <div class="portlet-content" >
+          <div class="portlet-content-item">
+            <h4 class="item-title">{{ work.company }}</h4>
+            <p><small>{{ work.title }}</small></p>
+            <p><small><i class="fa fa-calendar"></i>{{ work.duration }} <i class="fa fa-map-marker"></i> {{work.location}}</small></p>
+            <p>{{ work.description }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+
+      {% endif %}
+      {% if site.author.Education %}
+      <div class="portlet">
+        <h3 class="portlet-title">Education</h3>
+        {% for education in site.author.Education %}
+        <div class="portlet-content" >
+          <div class="portlet-content-item">
+            <h4 class="item-title">{{ education.school }}</h4>
+            <p><small>{{ education.degree }} {{ education.major }}</small></p>
+            <p><small><i class="fa fa-calendar"></i>{{ education.duration }} <i class="fa fa-map-marker"></i> {{education.location}}</small></p>
+            <p>{{ work.description }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+
+      {% endif %}
+    </div>
+
+    <div class="col-md-4">
+      {% if site.author.programmingSkills %}
+      <h3 class="skill-title"><span class="fa fa-code skill-icon"></span>Programing Skills</h3>
+      <div class="skill-content">
+        <ul class="list-unstyled">
+          {% for skill in site.author.programmingSkills %}
+          <li>
+            <span>{{ skill.name }}</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: {{ skill.percentage }}">
+                <span class="skill-percentage">{{ skill.percentage }}</span>
+              </div>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+      {% if site.author.Language %}
+      <h3 class="language-title"><span class="fa fa-globe language-icon"></span>Language</h3>
+      <div class="language-content">
+        <ul class="list-unstyled">
+          {% for language in site.author.Language %}
+          <li>
+            <i class="fa fa-check"></i><span>{{ language.name }}</span>
+            <span class="language-profi">{{ language.proficiency }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+      
+    </div>
+  </div>
+</div>
