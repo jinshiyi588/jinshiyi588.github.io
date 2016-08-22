@@ -2,11 +2,11 @@
 
 ## Synopsis
 
-This is a jekyll .
+This is a my personal webpage.
 
-## Motivation
+It uses jekyll and bootstrap.
+
+Here is a document about [how to install jekyll](https://jinshiyi588.github.io/jekyll/install/2016/07/16/how-to-install-jekyll.html)
 
 
-
-## Installation
 
